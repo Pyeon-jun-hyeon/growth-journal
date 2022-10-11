@@ -1,3 +1,3 @@
-# Kokoa CLone 2022
+# Kokoa Cone 2022
 
 Growth Journal!
