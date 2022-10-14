@@ -1,18 +1,15 @@
+.user-component {
+  justify-content: space-between;
+}
+
 .user-component,
 .user-component__column:first-child {
   display: flex;
   align-items: center;
 }
 
-.user-component__avatar--xl {
-  width: 80px;
-  height: 80px;
-  border-radius: 32px;
-  margin-right: 20px;
-}
-
 .user-component__title {
-  font-weight: 600;
+  font-weight: 900;
   font-size: 21px;
 }
 
@@ -22,9 +19,33 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
-.user-component__avatar--sm {
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+  border-radius: 33px;
+}
+
+.user-component__avatar {
   width: 70px;
   height: 70px;
-  border-radius: 28px;
+  border-radius: 29px;
   margin-right: 20px;
+}
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+
+}
+
+.user-component__title--not-bold {
+  font-weight: 400;
+}
+
+/* .user-component__column span,
+.user-component__column i {
+  color:rgba(0, 0, 0, 0.5);
+} 아래와 같은 효과 */ 
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.5);
 }
