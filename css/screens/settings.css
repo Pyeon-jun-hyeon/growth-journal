@@ -1,0 +1,31 @@
+.settings-screen {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.settings__setting {
+  padding: 25px 0px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting-column span {
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.settings__setting i {
+  padding-left: 10px;
+  font-size: 24px;
+}
+
+.settings__setting-column:last-child {
+  opacity: 0.6;
+}
+
+.settings-column {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
